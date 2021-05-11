@@ -1,0 +1,64 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* info card */
+
+.container {
+  width: 1080px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #43374b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card {
+  width: 25%;
+  margin: 0px 30px;
+  padding: 20px;
+  text-align: center;
+  background-color: #43374b;
+  display: inline-block;
+}
+
+.info-card .info-card__icon {
+  padding: 0px 10px;
+}
+
+.info-card .info-card__icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.info-card .info-card__detail {
+  padding: 40px;
+  background-color: white;
+}
+
+.info-card .info-card__title {
+  font-family: "Righteous", cursive;
+  font-size: 1.6rem;
+  color: #43374b;
+}
+
+.info-card .info-card__desc {
+  margin: 4px 0px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 16px;
+  color: #43374b;
+}

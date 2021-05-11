@@ -1,0 +1,68 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* button */
+
+.container {
+  width: 1080px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #f1f1f1;
+  display: flex;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-success {
+  background-color: #198754;
+}
+.btn-danger {
+  background-color: #dc3545;
+}
+.btn-warning {
+  background-color: #ffc107;
+}
+.btn-info {
+  background-color: #0dcaf0;
+  color: black;
+}
+.btn-light {
+  background-color: #f8f9fa;
+  color: #501017;
+}
+.btn-dark {
+  background-color: #212529;
+  color: #f3fbf8;
+}
