@@ -1,0 +1,17 @@
+Câu 0: HTML là gì?
+
+HTML là chữ viết tắt của cụm từ HyperText Markup Language (Ngôn ngữ đánh dấu siêu văn bản).
+HTML dùng để hiển thị nội dung của trang web.
+
+Câu 1: Liệt kê 10 thẻ inline , 10 thẻ block và các thẻ semantic 
+
+thẻ inline: <a>, <b>, <i>, <strong>, <span>, <br>, <input>, <button>, <img>, <textarea>,
+
+thẻ block và semantic: <h1>-<h6>, <p>, <hr>, <ul>, <li>, <article>, <nav>, <header>, <main>, <footer>, <table>
+
+Câu 2: Làm ví dụ BEM về 'boy'
+
+Block: boy
+Element: boy__eyes, boy__hair, boy__height, boy__weight
+Modifier: boy__eyes--black, boy__hair--black, boy__height--average, boy__weight--thin
+
